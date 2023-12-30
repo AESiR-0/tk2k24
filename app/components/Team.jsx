@@ -38,8 +38,9 @@ export default function Team() {
 
 function CardGenerator({props}) {
     return <div className="flex flex-col gap-3 max-w-[250px] justify-center items-center">
-        <Image src={props.image} alt={props.name} className="object-cover h-[200px] w-[200px] border-[5px] max-md:h-[150px] max-md:w-[150px]  rounded-full"/>
+        <Image src={props.image} alt={props.name} className="object-cover h-[250px] w-[250px] border-[5px] border-white max-md:h-[150px] max-md:w-[150px]  rounded-full"/>
         <h1 className="text-3xl font-semibold max-md:text-xl overflow-visible whitespace-nowrap">{props.name}</h1>
-        <h1 className="text-xl max-md:text-sm font-normal">{props.designation} | {props.number}</h1>
+        <h1 className="text-xl max-md:text-sm font-[400]"> {props.designation}  </h1>
+        <h1 className="text-xl max-md:text-sm font-thin"> {props.number}  </h1>
     </div>
 }

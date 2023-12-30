@@ -18,7 +18,7 @@ export default function NavBar() {
         },
         {
             name: "Contact",
-            link: "#contact"
+            link: "#footer"
         },
         {
             name: "Registration",

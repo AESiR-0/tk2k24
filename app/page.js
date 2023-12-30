@@ -10,12 +10,15 @@ import Footer from './components/Footer'
 
 export default function Home() {
   return (
-    <section className='flex flex-col w-full h-full'>
+    <section className='flex overflow-x-hidden flex-col w-full h-full'>
       <ShootingStars /> {/* This is background stars animation */}
       <NavBar />
       <HeroImage />
       <About />
-      <CarouselPlugin />
+      <div className='flex flex-col gap-2 h-screen w-screen'>
+        <h1 className='text-4xl font-bold text-center px-10 uppercase'>Glimpses</h1>
+        <CarouselPlugin />
+      </div>
       <Team />
       <Events />
       <Footer />

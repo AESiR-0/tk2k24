@@ -42,7 +42,7 @@ const slides = [
 
 export function CarouselPlugin() {
     const plugin = React.useRef(
-        Autoplay({ delay: 1000, stopOnInteraction: true }),
+        Autoplay({ delay: 1500, stopOnInteraction: true }),
     )
 
     return (
