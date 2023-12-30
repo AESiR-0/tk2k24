@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <div className="h-full px-4 py-10 space-y-8 overflow-hidden sm:px-6 lg:px-8">
+    <div id='footer' className="h-full px-4 py-10 space-y-8 overflow-hidden sm:px-6 lg:px-8">
     <nav className="flex flex-wrap justify-center -mx-5 -my-2">
         <div className="px-5 py-2">
             <Link href={""} onClick={(e) => {
