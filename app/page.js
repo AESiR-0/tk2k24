@@ -5,6 +5,8 @@ import NavBar from '@/components/NavBar'
 import About from './components/About'
 import { CarouselPlugin } from './components/Carousel'
 import Team from './components/Team'
+import Events from './components/Events'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <About />
       <CarouselPlugin />
       <Team />
+      <Events />
+      <Footer />
     </section>
   )
 }
