@@ -2,10 +2,10 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx}",
   ],
   prefix: "",
   theme: {
@@ -61,9 +61,8 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
-        'infinite-scroll': {
-          from: { transform: 'translateX(1  0%)' },
-          to: { transform: 'translateX(-200%)' },
+        "infinite-scroll": {
+          to: { transform: "translate(calc(-50% - 0.5rem))" },
         },
         "accordion-down": {
           from: { height: "0" },
@@ -73,24 +72,22 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        "shootingStar": {
+        shootingStar: {
           from: {
-            transform: "translateX(-10vh)"
+            transform: "translateX(-10vh)",
           },
 
           to: {
-            transform: "translateX(250vh)"
-          }
-        }
-
+            transform: "translateX(250vh)",
+          },
+        },
       },
       animation: {
-        
-        'infinite-scroll': 'infinite-scroll 400s linear infinite',
+        "infinite-scroll": "infinite-scroll 20s linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

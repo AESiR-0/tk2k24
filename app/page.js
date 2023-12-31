@@ -17,7 +17,7 @@ export default function Home() {
       <HeroImage />
       <About />
       <InfiniteScroller />
-      <div className='flex flex-col gap-2 h-screen w-screen'>
+      <div className='flex flex-col text-5xl font-bold max-md:text-xl gap-2 h-screen w-screen'>
         <h1 className='text-4xl font-bold text-center px-10 uppercase'>Glimpses</h1>
         <CarouselPlugin />
       </div>
