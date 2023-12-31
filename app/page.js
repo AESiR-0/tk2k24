@@ -7,6 +7,7 @@ import { CarouselPlugin } from './components/Carousel'
 import Team from './components/Team'
 import Events from './components/Events'
 import Footer from './components/Footer'
+import InfiniteScroller from './components/InfiniteScroller'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <NavBar />
       <HeroImage />
       <About />
+      <InfiniteScroller />
       <div className='flex flex-col gap-2 h-screen w-screen'>
         <h1 className='text-4xl font-bold text-center px-10 uppercase'>Glimpses</h1>
         <CarouselPlugin />

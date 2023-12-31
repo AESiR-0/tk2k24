@@ -20,6 +20,11 @@ export default function Footer() {
                 Team
             </Link>
         </div>
+        <div className="px-5 py-2">
+            <Link href="https://drive.google.com/file/d/1WC6fSzoulfyFJytj5xzOT5ywZzDM53zM/view?usp=sharing"  className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                Code of Conduct
+            </Link>
+        </div>
     </nav>
     <div className="flex justify-center mt-8 space-x-6">
         <Link href="https://instagram.com/techkaushalya24" className="text-gray-400 hover:text-gray-500">
