@@ -28,8 +28,8 @@ export default function NavBar() {
         }
     ]
 
-    return <div className="flex justify-between items-center w-full absolute top-0 h-20 pt-5 max-md:px-8 backdrop-blur-sm">
-        <Link href={'/'} className="w-[30%] h-full flex justify-center items-center gap-6">
+    return <div className="flex justify-between items-center w-full absolute  top-0 h-20 pt-5 max-md:px-2 backdrop-blur-sm">
+        <Link href={'/'} className="w-[30%] h-full  max-md:w-fit flex justify-center items-center gap-6">
             <Image src={DCS} alt="DCS Logo" width={70} height={70} />
      
             <Image src={LogoText} alt="Logo" height={64} width={64} className="max-md:h-[44px] max-md:w-[44px]"/> <span className="text-5xl mt-2 font-medium max-md:text-4xl">24</span>

@@ -36,15 +36,15 @@ export default function InfiniteScroller() {
     
 
   return (
-    <div className="text-4xl max-sm:text-2xl font-semibold -mt-20 max-md:mt-0 text-center gap-5 mb-10 flex flex-col text-white">
+    <div className="text-4xl max-sm:text-2xl font-semibold -mt-20 max-md:mt-0 text-center gap-20 mb-10 flex flex-col text-white">
     Previous Sponsors
     <div
       id="scroller"
-      className="w-screen items-center justify-center h-[40vh] mb-10 flex max-md:flex-wrap  [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]"
+      className="w-screen items-center  justify-center h-[40vh] mb-10 flex  "
     > 
       <ul
       id="scroll-ul"
-        className="flex w-max items-center justify-center scroll__inner md:justify-start [&_li]:mx-8 [&_img]:max-w-none  overflow-hidden "
+        className="flex w-max items-center max-md:flex-col max-md:h-fit gap-2 justify-center scroll__inner  [&_li]:mx-8 [&_img]:max-w-none   "
      
       >
         {listOfSponsors.map((sponsor, index) => (
