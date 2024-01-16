@@ -50,7 +50,7 @@ export default function InfiniteScroller() {
         {listOfSponsors.map((sponsor, index) => (
           <li
             key={index}
-            className="flex items-center justify-center"
+            className="flex items-center bg-white justify-center"
             aria-hidden={true}
           >
             <Image
