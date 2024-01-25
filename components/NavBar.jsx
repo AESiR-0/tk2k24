@@ -24,7 +24,7 @@ export default function NavBar() {
         },
         {
             name: "Registration",
-            link: "/registration"
+            link: "https://tally.so/r/mOG9xM"
         }
     ]
 
