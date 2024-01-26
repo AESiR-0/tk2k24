@@ -1,6 +1,6 @@
 import localFont from 'next/font/local'
 import './globals.css'
-import icon from '@/public/static/images/logo/short.png'
+import icon from '@/public/favicon.ico'
 
 const jostFont = localFont({ src: './Jost-VariableFont_wght.ttf', variable: "--font-jost", display: "swap" })
 
