@@ -7,6 +7,7 @@ import { CarouselPlugin } from './components/Carousel'
 import Team from './components/Team'
 import Events from './components/Events'
 import Footer from './components/Footer'
+import EventCard from '@/components/EventCard'
 import InfiniteScroller from './components/InfiniteScroller'
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <Team />
       <Events />
       <Footer />
+
     </section>
   )
 }

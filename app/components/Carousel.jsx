@@ -46,7 +46,7 @@ export function CarouselPlugin() {
     )
 
     return (
-        <div className="w-screen h-screen flex justify-center items-center">
+        <div className="w-screen h-screen my-10 flex justify-center items-center">
             <Carousel
                 plugins={[plugin.current]}
                 opts={{

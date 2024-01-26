@@ -3,6 +3,7 @@ import Image1 from "@/public/static/images/organizer/1.jpg";
 import Image2 from "@/public/static/images/organizer/2.jpg";
 import Image3 from "@/public/static/images/organizer/3.jpg";
 import Image4 from "@/public/static/images/organizer/himank.jpeg";
+import Image5 from "@/public/static/images/organizer/4.jpg";
 
 const TeamData = [
   {
@@ -23,18 +24,25 @@ const TeamData = [
     image: Image3,
     number: "+91 9313190969",
   },
+  
+  {
+    name: "Tirth Mehta",
+    designation: "Organizer",
+    image: Image5,
+    number: "+91 6353935 670",
+  },
   {
     name: "Himank Varshney",
-    designation: "Organizer",
+    designation: "Falicitator",
     image: Image4,
-  },
+  }
 ];
 
 export default function Team() {
   return (
-    <div className="w-screen h-screen flex flex-col justify-center items-center gap-24 max-md:min-h-screen">
-      <h1 className="text-5xl font-semibold max-md:text-3xl">MEET OUR TEAM</h1>
-      <div className="flex w-full justify-evenly items-center max-md:flex-col max-md:gap-6">
+    <div className="w-screen min-h-screen flex flex-col z-10 flex-wrap justify-center py-10 items-center gap-24 max-md:min-h-screen">
+      <h1 className="text-5xl font-semibold max-md:text-3xl">MEET OUR ORGANIZERS</h1>
+      <div className="w-screen justify-evenly flex flex-wrap gap-x-36 gap-y-10 items-center max-md:flex-col max-md:gap-6">
         {TeamData.map((item, index) => {
           return <CardGenerator props={item} key={index} />;
         })}

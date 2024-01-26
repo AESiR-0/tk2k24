@@ -36,7 +36,7 @@ export default function InfiniteScroller() {
     
 
   return (
-    <div className="text-4xl max-sm:text-2xl font-semibold -mt-20 max-md:mt-0 text-center gap-20 mb-10 flex flex-col text-white">
+    <div className="text-4xl my-10 max-sm:text-2xl font-semibold max-md:mt-0 text-center gap-20 flex flex-col text-white">
     Previous Sponsors
     <div
       id="scroller"
