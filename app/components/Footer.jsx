@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="px-5 py-2">
             <Link href="" onClick={(e) => {
             e.preventDefault();
-            document.getElementById("meet").scrollIntoView({ behavior: "smooth" });}}  className="text-base leading-6 text-gray-500 hover:text-gray-100
+            document.getElementById("team").scrollIntoView({ behavior: "smooth" });}}  className="text-base leading-6 text-gray-500 hover:text-gray-100
             
         ">
                 Team

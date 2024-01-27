@@ -14,35 +14,56 @@ import valo from "@/public/static/images/events/games/valorant.png";
 import EventCard from "@/components/EventCard";
 import bgmi from "@/public/static/images/events/games/Bgmi.png";
 
-const events = [
-  {title:"Cinematography",src:cinematography},
-  {title:"Code Complete",src:codeComplete},
-  {title:"Code Swap",src:codeSwap},
-  {title:"Cricket",src:Cricket},
-  {title:"Football", src:football},
-  {title:"Web Jam",src:webJam},
-  {title:"Techno Quiz", src:quiz},
-  {title:"Data Insights" ,src:dataInsight},
-  {title:"Cyber Scenario",src:cyberScenario},
-  {title:"Query Cracker",src:queryRelay},
-  {title:"Cypher Titan", src:cypherTitan},
-  {title:"Valorant", src:valo},
-  {title:"BGMI", src:bgmi},
+const techEvents = [
+  { title: "Code Complete", src: codeComplete },
+  { title: "Code Swap", src: codeSwap },
+  { title: "Web Jam", src: webJam },
+  { title: "Techno Quiz", src: quiz },
+  { title: "Data Insights", src: dataInsight },
+  { title: "Cyber Scenario", src: cyberScenario },
+  { title: "Query Cracker", src: queryRelay },
+  { title: "Cypher Titan", src: cypherTitan },
+];
+
+const nonTechEvents = [
+  { title: "Cinematography", src: cinematography },
+  { title: "Cricket", src: Cricket },
+  { title: "Football", src: football },
+  { title: "Valorant", src: valo },
+  { title: "BGMI", src: bgmi },
 ];
 
 export default function Events() {
   return (
-    
-    <div className="min-w-screen h-fit flex items-center  flex-col my-20 gap-10" id="events">
-      <h2 className="text-4xl max-md:text-2xl font-bold text-center  ">Events</h2>
     <div
-      
-      className="gap-14  flex flex-wrap  min-w-screen justify-center"
+      className="min-w-screen h-fit flex items-center  flex-col my-20 gap-10"
+      id="events"
     >
-      {events.map((event, index) => (
-      <EventCard key={index} title={event.title} src={event.src} />
-      ))}
-    </div>
+      <h2 className="text-4xl max-md:text-2xl font-bold text-center  ">
+        Events
+      </h2>
+      <div className="min-w-screen max-md:gap-10 max-md:flex-col flex gap-40">
+        <div className="">
+          <h2 className="text-3xl max-md:text-xl py-10 font-bold text-center">
+            Tech Events
+          </h2>
+          <div className="gap-20 flex flex-wrap  justify-center">
+            {techEvents.map((event, index) => (
+              <EventCard key={index} title={event.title} src={event.src} />
+            ))}
+          </div>
+        </div>
+        <div className="">
+          <h2 className="text-3xl max-md:text-xl py-10 font-bold text-center">
+            Non-Tech Events
+          </h2>
+          <div className="gap-24  flex flex-wrap  justify-center">
+            {nonTechEvents.map((event, index) => (
+              <EventCard key={index} title={event.title} src={event.src} />
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

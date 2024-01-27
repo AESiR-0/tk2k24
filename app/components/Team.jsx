@@ -33,14 +33,14 @@ const TeamData = [
   },
   {
     name: "Himank Varshney",
-    designation: "Falicitator",
+    designation: "Facilitator",
     image: Image4,
   }
 ];
 
 export default function Team() {
   return (
-    <div className="w-screen min-h-screen flex flex-col z-10 flex-wrap justify-center py-10 items-center gap-24 max-md:min-h-screen">
+    <div id="team" className="w-screen min-h-screen flex flex-col z-10 flex-wrap justify-center py-10 items-center gap-24 max-md:min-h-screen">
       <h1 className="text-5xl font-semibold max-md:text-3xl">MEET OUR ORGANIZERS</h1>
       <div className="w-screen justify-evenly flex flex-wrap gap-x-36 gap-y-10 items-center max-md:flex-col max-md:gap-6">
         {TeamData.map((item, index) => {

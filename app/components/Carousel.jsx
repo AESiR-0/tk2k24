@@ -58,6 +58,7 @@ export function CarouselPlugin() {
                 onMouseLeave={plugin.current.reset}
             >
                 <CarouselContent>
+                    
                     {slides.map((slide, index) => (
                         <CarouselItem key={index}>
                             <div className="p-1 ">
