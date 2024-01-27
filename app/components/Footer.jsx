@@ -29,6 +29,14 @@ export default function Footer() {
         </div>
     </nav>
     <div className="flex justify-center mt-8 space-x-6">
+        <Link>
+        <a href="https://discord.gg/Vc94RSJj" className="text-gray-400 hover:text-gray-100">
+            <span className="sr-only">Discord</span>
+            <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.48 2 2 6.48 2 12c0 4.41 3.589 8 8 8 4.41 0 8-3.59 8-8 0-4.42-3.59-8-8-8zm0 14.5a6.5 6.5 0 110-13 6.5 6.5 0 010 13zm-2.5-5.5a1 1 0 100-2 1 1 0 000 2zm5 0a1 1 0 100-2 1 1 0 000 2zM9.5 11a1 1 0 100-2 1 1 0 000 2zm5 0a1 1 0 100-2 1 1 0 000 2zM12 8.5a1 1 0 110-2 1 1 0 010 2z" />
+            </svg>
+        </a>
+        </Link>
         <Link href="https://www.facebook.com/profile.php?id=61555525843606&mibextid=ZbWKwL" className="text-gray-400 hover:text-gray-100">
             <span className="sr-only">Facebook</span>
             <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
