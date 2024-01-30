@@ -47,6 +47,14 @@ export default function Footer() {
             Code of Conduct
           </Link>
         </div>
+        <div className="px-5 py-2">
+          <Link
+            href="https://drive.google.com/file/d/1-BzUVmH1WVxU0rLMT7lrs4DpTaDzyBcL/view"
+            className="text-base leading-6 text-gray-500 hover:text-gray-100"
+          >
+            Rule Book
+          </Link>
+        </div>
       </nav>
       <div className="flex justify-center mt-8 space-x-6">
         <Link

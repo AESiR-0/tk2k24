@@ -14,6 +14,7 @@ import valo from "@/public/static/images/events/games/valorant.png";
 import EventCard from "@/components/EventCard";
 import bgmi from "@/public/static/images/events/games/Bgmi.png";
 
+const ruleBook = "https://drive.google.com/file/d/1-BzUVmH1WVxU0rLMT7lrs4DpTaDzyBcL/view"
 const techEvents = [
   { title: "Code Complete", src: codeComplete },
   { title: "Code Swap", src: codeSwap },
@@ -49,7 +50,7 @@ export default function Events() {
           </h2>
           <div className="gap-20 flex flex-wrap  justify-center">
             {techEvents.map((event, index) => (
-              <EventCard key={index} title={event.title} src={event.src} />
+              <EventCard link={ruleBook} key={index} title={event.title} src={event.src} />
             ))}
           </div>
         </div>
@@ -59,7 +60,7 @@ export default function Events() {
           </h2>
           <div className="gap-24  flex flex-wrap  justify-center">
             {nonTechEvents.map((event, index) => (
-              <EventCard key={index} title={event.title} src={event.src} />
+              <EventCard link={ruleBook} key={index} title={event.title} src={event.src} />
             ))}
           </div>
         </div>
