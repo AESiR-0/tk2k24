@@ -51,7 +51,7 @@ export default function Team() {
         })}
       </div>
       <h1 className="text-4xl font-semibold max-md:text-2xl">Facilitator</h1>
-      <div className="w-screen justify-center flex max-md:flex-col max-md:gap-6">
+      <div className="w-screen justify-center flex  ">
         {faciData.map((item, index) => {
           return <CardGenerator props={item} key={index} />;
         })}
