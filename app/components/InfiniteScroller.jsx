@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Amul from "@/public/static/images/logo/sponsors/amul.png";
 import lakme from "@/public/static/images/logo/sponsors/lakme.png";
@@ -9,7 +8,6 @@ import paperBoat from "@/public/static/images/logo/sponsors/paperBoat.png";
 import theFatChef from "@/public/static/images/logo/sponsors/tfc.png";
 import pizzahut from "@/public/static/images/logo/sponsors/pizzahut.png";
 import Image from "next/image";
-import { useEffect } from "react";
 
 export default function InfiniteScroller() {
   const listOfSponsors = [
@@ -23,22 +21,6 @@ export default function InfiniteScroller() {
     {img: paperBoat, alt: "Paper Boat"},
   ];
 
-//   useEffect(() =>{ 
-//   const scrollerInner = document.getElementById("scroll-ul");
-//   const scrollerContent = Array.from(scrollerInner.children);
-//   // For each item in the array, clone it
-//   // add aria-hidden to it
-//   // add it into the `.scroller-inner`
-//   scrollerContent.forEach((item) => {
-//     const duplicatedItem = item.cloneNode(true);
-//     duplicatedItem.setAttribute("aria-hidden", true);
-//     scrollerInner.appendChild(duplicatedItem);scrollerContent.forEach((item) => {
-//       const duplicatedItem = item.cloneNode(true);
-//       duplicatedItem.setAttribute("aria-hidden", true);
-//       scrollerInner.appendChild(duplicatedItem);
-//     })
-//   })
-// }, []);
     
 
   return (
