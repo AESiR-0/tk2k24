@@ -4,6 +4,9 @@ import Amul from "@/public/static/images/logo/sponsors/amul.png";
 import lakme from "@/public/static/images/logo/sponsors/lakme.png";
 import mbachai from "@/public/static/images/logo/sponsors/mbachai.png";
 import McD from "@/public/static/images/logo/sponsors/McD.png";
+import pepsi from "@/public/static/images/logo/sponsors/pepsi.png";
+import paperBoat from "@/public/static/images/logo/sponsors/paperBoat.png";
+import theFatChef from "@/public/static/images/logo/sponsors/tfc.png";
 import pizzahut from "@/public/static/images/logo/sponsors/pizzahut.png";
 import Image from "next/image";
 import { useEffect } from "react";
@@ -15,6 +18,9 @@ export default function InfiniteScroller() {
     { img: mbachai, alt: "MBA Chai wala" },
     { img: McD, alt: "McDonalds" },
     { img: pizzahut, alt: "Pizza Hut" },
+    { img: theFatChef, alt: "The Fat Chef" },
+    {img: pepsi, alt: "Pepsi"},
+    {img: paperBoat, alt: "Paper Boat"},
   ];
 
 //   useEffect(() =>{ 

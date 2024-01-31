@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
         <div className="px-5 py-2">
           <Link
-            href="https://drive.google.com/file/d/1d7l97cUOF4aCa3ir3lQRvtCYZnLiyp6n/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1UBiZrFbJtg8SmoMUALfeB03rA4tgH9qx/view?usp=drive_link"
             className="text-base leading-6 text-gray-500 hover:text-gray-100"
           >
             Rule Book
@@ -61,18 +61,18 @@ export default function Footer() {
           href="https://discord.gg/Vc94RSJj"
           className="text-gray-400 hover:text-gray-100"
         >
-        <svg
+          <svg
             className="w-6 h-6"
             aria-hidden="true"
             fill="currentColor"
             viewBox="0 0 24 24"
-        >
+          >
             <path
-                fillRule="evenodd"
-                d="M12 2C6.477 2 2 6.477 2 12c0 5.523 4.477 10 10 10s10-4.477 10-10c0-5.523-4.477-10-10-10zm0 16.5c-4.136 0-7.5-3.364-7.5-7.5S7.864 3.5 12 3.5s7.5 3.364 7.5 7.5-3.364 7.5-7.5 7.5zm-1.5-5.25a1.75 1.75 0 110-3.5 1.75 1.75 0 010 3.5zm3 0a1.75 1.75 0 110-3.5 1.75 1.75 0 010 3.5zm-6 0a1.75 1.75 0 110-3.5 1.75 1.75 0 010 3.5z"
-                clipRule="evenodd"
+              fillRule="evenodd"
+              d="M12 2C6.477 2 2 6.477 2 12c0 5.523 4.477 10 10 10s10-4.477 10-10c0-5.523-4.477-10-10-10zm0 16.5c-4.136 0-7.5-3.364-7.5-7.5S7.864 3.5 12 3.5s7.5 3.364 7.5 7.5-3.364 7.5-7.5 7.5zm-1.5-5.25a1.75 1.75 0 110-3.5 1.75 1.75 0 010 3.5zm3 0a1.75 1.75 0 110-3.5 1.75 1.75 0 010 3.5zm-6 0a1.75 1.75 0 110-3.5 1.75 1.75 0 010 3.5z"
+              clipRule="evenodd"
             ></path>
-        </svg>
+          </svg>
         </Link>
         <Link
           href="https://www.facebook.com/profile.php?id=61555525843606&mibextid=ZbWKwL"
