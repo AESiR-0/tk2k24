@@ -14,7 +14,7 @@ import valo from "@/public/static/images/events/games/valorant.png";
 import EventCard from "@/components/EventCard";
 import bgmi from "@/public/static/images/events/games/Bgmi.png";
 
-const ruleBook = "https://drive.google.com/file/d/1-BzUVmH1WVxU0rLMT7lrs4DpTaDzyBcL/view"
+const ruleBook = "https://drive.google.com/file/d/1UBiZrFbJtg8SmoMUALfeB03rA4tgH9qx/view?usp=drive_link"
 const techEvents = [
   { title: "Code Complete", src: codeComplete },
   { title: "Code Swap", src: codeSwap },
