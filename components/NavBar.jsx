@@ -4,7 +4,7 @@ import Link from "next/link"
 import Image from "next/image";
 import LogoText from "@/public/static/images/logo/short.png"
 import DCS from "@/public/static/images/logo/DCS.png"
-import GU from "@/public/static/images/logo/GU.png"
+import GU from "@/public/static/images/logo/GU.jpg"
 import MoboNavBar from "./Mobo-NavBar";
 
 export default function NavBar() {
