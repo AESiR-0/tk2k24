@@ -15,6 +15,10 @@ export default function NavBar() {
             link: "#events"
         },
         {
+            name:"Schedule",
+            link:"https://drive.google.com/file/d/1dNTri5LRtpMwOOtwKZ2GMnzFdulPB_B8/view?usp=sharing"
+        },
+        {
             name: "About",
             link: "#about"
         },
@@ -25,7 +29,8 @@ export default function NavBar() {
         {
             name: "Registration",
             link: "https://tally.so/r/mOG9xM"
-        }
+        },
+        
     ]
 
     return <div className="flex justify-between items-center w-full absolute  top-0 h-20 pt-5 max-md:px-2 backdrop-blur-sm">
