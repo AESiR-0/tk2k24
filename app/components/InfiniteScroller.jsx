@@ -28,7 +28,7 @@ export default function InfiniteScroller() {
     Previous Sponsors
     <div
       id="scroller"
-      className="w-screen items-center  justify-center h-[40vh] mb-10 flex  "
+      className="w-screen items-center  justify-center mb-10 flex  "
     > 
       <ul
       id="scroll-ul"

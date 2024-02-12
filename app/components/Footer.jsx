@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
         <div className="px-5 py-2">
           <Link
-            href="https://drive.google.com/file/d/11YTjsvPZsPK2JUxelHThO9SEIAwpScpD/view?usp=sharing"
+            href="https://drive.google.com/file/d/11YTjsvPZsPK2JUxelHThO9SEIAwpScpD/view?usp=drivesdk"
             className="text-base leading-6 text-gray-500 hover:text-gray-100"
           >
             Rule Book
