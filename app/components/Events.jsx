@@ -48,7 +48,7 @@ const techEvents = [
   {
     title: "Query Cracker",
     src: queryRelay,
-    link: "https://drive.google.com/drive/folders/197MRQcy5lnzn9yWUhsV45f4dLvCO5Ana",
+    link: "https://drive.google.com/file/d/1bqeTcGj3TUNvnUhZqKndPXaCMMxrL9_x/view?usp=sharing",
   },
   {
     title: "Cypher Titan",
