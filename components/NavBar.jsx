@@ -16,7 +16,7 @@ export default function NavBar() {
         },
         {
             name:"Schedule",
-            link:"https://drive.google.com/file/d/1dNTri5LRtpMwOOtwKZ2GMnzFdulPB_B8/view?usp=sharing"
+            link:"https://drive.google.com/file/d/1HJBDh2nXzbn1imOpTPlU6sNucQLXvjIH/view?usp=sharing"
         },
         {
             name: "About",
