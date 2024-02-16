@@ -66,7 +66,7 @@ export default function Footer() {
       </nav>
       <div className="flex justify-center mt-8 space-x-6">
         <Link
-          href="https://discord.gg/Vc94RSJj"
+          href="https://discord.com/invite/3F3ny9GK"
           className="text-gray-400 hover:text-gray-100"
         >
           <svg
